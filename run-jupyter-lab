@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# jupyter lab --no-browser
+# google-chrome --app=http://localhost:8888/lab?token=267b0a2507e04fb8ed796bbb6189b647eb285da7bf680fef
+# jupyter-lab --generate-config
+# vi ~/.jupyter/jupyter_notebook_config.py
+# vi ~/.jupyter/jupyter_lab_config.py
+
+# pip install jupyterlab-code-formatter
+# jupyter nbconvert --execute --to html kernel.ipynb --HTMLExporter.theme=dark
+# jupyter nbconvert --execute --to pdf --no-input DatasetExploration-1.ipynb
+
+
+jupyter --version
+pipenv run jupyter lab
